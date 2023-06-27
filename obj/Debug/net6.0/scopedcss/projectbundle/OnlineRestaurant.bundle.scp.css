@@ -1,0 +1,187 @@
+/* _content/OnlineRestaurant/Views/Home/Index.cshtml.rz.scp.css */
+.row[b-fu14kj3bsj] {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.row h2[b-fu14kj3bsj] {
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.content-menu[b-fu14kj3bsj] {
+    float: left;
+    width: 100%;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.content-menu ul li a[b-fu14kj3bsj] {
+    color: #000000;
+    border: none;
+    position: relative;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.dish-container[b-fu14kj3bsj] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dish-card[b-fu14kj3bsj] {
+    width: 300px;
+    margin: 10px;
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+
+.dish-card:hover[b-fu14kj3bsj] {
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.7);
+}
+
+.dish-image[b-fu14kj3bsj] {
+    max-width: 100%;
+    height: auto;
+}
+
+.dish-image-container[b-fu14kj3bsj] {
+    background: #cfcfcf;
+    padding: 10px;
+}
+
+.dish-details[b-fu14kj3bsj] {
+    padding: 10px;
+}
+
+.dish-details input[b-fu14kj3bsj] {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.dish-details span[b-fu14kj3bsj] {
+    color: #dd1225;
+}
+
+.dish-details input:hover[b-fu14kj3bsj] {
+    background-color: firebrick;
+}
+/* _content/OnlineRestaurant/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-kp9xjhomyc] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+.navbar-brand img[b-kp9xjhomyc] {
+    width: 150px;
+    height: 80px;
+}
+
+.navbar[b-kp9xjhomyc] {
+    background-color: transparent !important;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+a[b-kp9xjhomyc] {
+  color: #0077cc;
+}
+
+.btn-primary[b-kp9xjhomyc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-kp9xjhomyc], .nav-pills .show > .nav-link[b-kp9xjhomyc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-kp9xjhomyc] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-kp9xjhomyc] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-kp9xjhomyc] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-kp9xjhomyc] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-kp9xjhomyc] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+.home-banner[b-kp9xjhomyc] {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden;
+    background: url(https://images.template.net/108716/food-blog-background-m1w5n.jpg) no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 1%;
+}
+
+.home-banner-content[b-kp9xjhomyc] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+}
+
+    .home-banner-content h1[b-kp9xjhomyc] {
+        font-size: 40px;
+        line-height: 70px;
+        color: #dd1225;
+        font-weight: 800;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Roboto Slab', serif;
+        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dd1225, 0 0 82px #dd1225, 0 0 92px #dd1225, 0 0 102px #dd1225, 0 0 151px #dd1225;
+    }
