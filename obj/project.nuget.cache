@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gx2ZqyPvmVBX2/rXhjbnKZ73ZYbY6EOyVppnjrN4F9Q7IJg8V4rfgWpv2JTkuw+mYJDHTxDCqS6kFsNGNwU71A==",
+  "dgSpecHash": "nr2QKct0sVQLuTEuh+EA7MqXwYhX2PO4OTlN4tcl5gGbo0Ky5Q5KDCEzyNonfdUnSNf63fnO2zO4aPd2xoJf4Q==",
   "success": true,
-  "projectFilePath": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\OnlineRestaurant.csproj",
+  "projectFilePath": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\OnlineRestaurant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cetme\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cetme\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

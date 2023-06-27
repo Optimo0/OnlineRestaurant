@@ -1,391 +1,399 @@
 {
   "Files": [
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OnlineRestaurant.bundle.scp.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OnlineRestaurant.bundle.scp.css",
       "PackagePath": "staticwebassets\\OnlineRestaurant.bundle.scp.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Baked Lemon Pepper Chicken.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Baked Lemon Pepper Chicken.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Baked Lemon Pepper Chicken.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Beef and Broccoli Stir-Fry.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Beef and Broccoli Stir-Fry.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Beef and Broccoli Stir-Fry.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Buffalo Cauliflower Bites.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Buffalo Cauliflower Bites.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Buffalo Cauliflower Bites.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Butternut Squash Soup.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Butternut Squash Soup.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Butternut Squash Soup.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Caesar Salad.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Caesar Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Caesar Salad.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Cajun Fries.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Cajun Fries.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Cajun Fries.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Caprese Salad.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Caprese Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Caprese Salad.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Chicken Curry.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Chicken Curry.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Chicken Curry.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Chicken Tortilla Soup.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Chicken Tortilla Soup.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Chicken Tortilla Soup.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Chili Garlic Tofu Stir-Fry.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Chili Garlic Tofu Stir-Fry.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Chili Garlic Tofu Stir-Fry.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Classic Beef Stew.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Classic Beef Stew.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Classic Beef Stew.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Cobb Salad.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Cobb Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Cobb Salad.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Coleslaw with a Kick.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Coleslaw with a Kick.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Coleslaw with a Kick.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Garlic Parmesan Breadsticks.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Garlic Parmesan Breadsticks.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Garlic Parmesan Breadsticks.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Greek Salad.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Git-2.41.0-64-bit.exe"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Greek Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Greek Salad.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Honey Sriracha Chicken.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Honey Sriracha Chicken.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Honey Sriracha Chicken.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Jalapeno Poppers.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Jalapeno Poppers.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Jalapeno Poppers.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Korean Kimchi Fried Rice.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Korean Kimchi Fried Rice.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Korean Kimchi Fried Rice.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Korean Spicy Beef Stir-Fry.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Korean Spicy Beef Stir-Fry.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Korean Spicy Beef Stir-Fry.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Lemon Herb Grilled Chicken.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Lemon Herb Grilled Chicken.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Lemon Herb Grilled Chicken.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Mac and Cheese.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Mac and Cheese.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Mac and Cheese.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Mexican Street Corn.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Mexican Street Corn.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Mexican Street Corn.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Nashville Hot Chicken.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Nashville Hot Chicken.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Nashville Hot Chicken.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Roasted Garlic Broccoli.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Roasted Garlic Broccoli.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Roasted Garlic Broccoli.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Shrimp Skewers.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Shrimp Skewers.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Shrimp Skewers.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Sichuan Hot and Sour Soup.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Sichuan Hot and Sour Soup.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Sichuan Hot and Sour Soup.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Szechuan Beef.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Szechuan Beef.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Szechuan Beef.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Basil Beef.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Basil Beef.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Thai Basil Beef.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Basil Eggplant.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Basil Eggplant.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Thai Basil Eggplant.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Beef Salad.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Beef Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Thai Beef Salad.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Red Curry Vegetables.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Red Curry Vegetables.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Thai Red Curry Vegetables.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Tom Yum Soup.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Tom Yum Soup.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Tom Yum Soup.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Tomato Basil Soup.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Tomato Basil Soup.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Tomato Basil Soup.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Tuna Tartare Bites.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Tuna Tartare Bites.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Tuna Tartare Bites.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Logo.png",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Logo.png",
       "PackagePath": "staticwebassets\\Images\\Restaurant Logo.png"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

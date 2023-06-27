@@ -3515,11 +3515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\OnlineRestaurant.csproj",
+      "projectUniqueName": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\OnlineRestaurant.csproj",
       "projectName": "OnlineRestaurant",
-      "projectPath": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\OnlineRestaurant.csproj",
+      "projectPath": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\OnlineRestaurant.csproj",
       "packagesPath": "C:\\Users\\cetme\\.nuget\\packages\\",
-      "outputPath": "D:\\My Coding Folders\\C# Folders\\OnlineRestaurant\\obj\\",
+      "outputPath": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cetme\\AppData\\Roaming\\NuGet\\NuGet.Config",
