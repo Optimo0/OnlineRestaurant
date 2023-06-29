@@ -11,5 +11,14 @@ namespace OnlineRestaurant.Data
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DishModel>()
+                .Property(d => d.Price)
+                .HasColumnType("decimal(6, 2)");
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

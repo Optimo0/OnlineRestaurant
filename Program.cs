@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineRestaurant.Data;
+using OnlineRestaurant.Interfaces;
 using OnlineRestaurant.Models;
 using OnlineRestaurant.Services;
 
@@ -13,7 +14,7 @@ builder.Services.AddDbContext<RestaurantDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddScoped<MenuService>();
+builder.Services.AddTransient<IMenuService, MenuService>();
 
 builder.Services.AddControllersWithViews();
 

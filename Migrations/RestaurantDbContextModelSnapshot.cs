@@ -46,7 +46,7 @@ namespace OnlineRestaurant.Migrations
                         .HasColumnType("bit");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(6, 2)");
 
                     b.Property<int>("Spiciness")
                         .HasColumnType("int");

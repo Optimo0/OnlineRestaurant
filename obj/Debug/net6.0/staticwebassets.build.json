@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XJJv9xt0S/YlVLo3EQkZcAwqgbIPJYtD3J7cyO36Wfw=",
+  "Hash": "fJpYR/eUx/YZMPBvbd1v9/Vf9aRcE/lW3hYNMvLQrvg=",
   "Source": "OnlineRestaurant",
   "BasePath": "_content/OnlineRestaurant",
   "Mode": "Default",
@@ -340,23 +340,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png"
     },
     {
-      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe",
-      "SourceId": "OnlineRestaurant",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
-      "BasePath": "_content/OnlineRestaurant",
-      "RelativePath": "Images/Dishes/Git-2.41.0-64-bit.exe",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe"
-    },
-    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Greek Salad.png",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -372,6 +355,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Greek Salad.png"
+    },
+    {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Grilled Salmon with Lemon Butter Sauce.png",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/Grilled Salmon with Lemon Butter Sauce.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Grilled Salmon with Lemon Butter Sauce.png"
+    },
+    {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Grilled Trout with Almond Butter.png",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/Grilled Trout with Almond Butter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Grilled Trout with Almond Butter.png"
     },
     {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Honey Sriracha Chicken.png",
@@ -459,6 +476,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Lemon Herb Grilled Chicken.png"
     },
     {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Lobster Bisque.png",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/Lobster Bisque.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Lobster Bisque.png"
+    },
+    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Mac and Cheese.png",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -527,23 +561,6 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Roasted Garlic Broccoli.png"
     },
     {
-      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe",
-      "SourceId": "OnlineRestaurant",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
-      "BasePath": "_content/OnlineRestaurant",
-      "RelativePath": "Images/Dishes/scoped_dir22068_1147045770/Git-2.41.0-64-bit.exe",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe"
-    },
-    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Shrimp Skewers.png",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -578,6 +595,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Sichuan Hot and Sour Soup.png"
     },
     {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Sushi.png",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/Sushi.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Sushi.png"
+    },
+    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Szechuan Beef.png",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -593,6 +627,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Szechuan Beef.png"
+    },
+    {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Szechuan-style Calamari.png",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/Szechuan-style Calamari.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Szechuan-style Calamari.png"
     },
     {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Basil Beef.png",

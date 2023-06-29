@@ -2,18 +2,19 @@
 using OnlineRestaurant.Models;
 using System.Diagnostics;
 using OnlineRestaurant.Services;
+using OnlineRestaurant.Interfaces;
 
 namespace OnlineRestaurant.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly MenuService _menuService;
+        private readonly IMenuService _menuService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IMenuService menuService)
         {
             _logger = logger;
-            _menuService = new MenuService();
+            _menuService = menuService;
         }
 
         public ActionResult Index(string category, int? spiciness, bool? containsNuts, bool? vegetarian)
