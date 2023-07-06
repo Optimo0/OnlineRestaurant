@@ -1,7 +1,12 @@
-﻿namespace OnlineRestaurant.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace OnlineRestaurant.Models
 {
+    [Table("Dishes")]
     public class DishModel
     {
+        [Key]
         public int Id { get; set; }
         public string? DishName { get; set; }
         public string? ImageUrl { get; set; }
@@ -10,7 +15,6 @@
         public bool IsVegetarian { get; set; }
         public decimal Price { get; set; }
         public string Category { get; set; }
-        //public List<string> Ingredients { get; set; }
-        //public int Quantity { get; set; }
+        public int Quantity { get; set; }
     }
 }

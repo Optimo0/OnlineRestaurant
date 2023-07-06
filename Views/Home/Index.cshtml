@@ -10,62 +10,62 @@
             <div class="row col-md-12">
                 <h2>Categories</h2>
                 @*<div class="content-menu">
-                    <ul class="nav nav-tabs d-flex justify-content-between" role="tablist">
+                <ul class="nav nav-tabs d-flex justify-content-between" role="tablist">
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">All</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">All</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Salads</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Salads</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Soups</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Soups</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Chicken-Dishes</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Chicken-Dishes</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Beef-Dishes</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Beef-Dishes</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Seafood-Dishes</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Seafood-Dishes</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Vegetable-Dishes</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Vegetable-Dishes</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">Bits&amp;Bites</span>
-                            </a>
-                        </li>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">Bits&amp;Bites</span>
+                </a>
+                </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link">
-                                <span class="icon">On-The-Side</span>
-                            </a>
-                        </li>
-                    </ul>
+                <li class="nav-item">
+                <a class="nav-link">
+                <span class="icon">On-The-Side</span>
+                </a>
+                </li>
+                </ul>
                 </div>*@
                 <div>
                     <div>
@@ -80,7 +80,7 @@
                                 <option value="Seafood-Dishes">Seafood-Dishes</option>
                                 <option value="Vegetable-Dishes">Vegetable-Dishes</option>
                                 <option value="Bits&Bites">Bits & Bites</option>
-                                <option value="On-The-Side">On The Side</option>
+                                <option value="On The Side">On The Side</option>
                             </select>
                             <label for="spiciness">Spiciness:</label>
                             <select id="spiciness" name="spiciness">
@@ -113,7 +113,7 @@
                             var imagePath = "~/Images/Dishes/" + (dish.ImageUrl + ".png");
                             <div class="dish-card">
                                 <div class="dish-image-container">
-                                    <img src="@imagePath" alt="@dish.DishName" class="dish-image w-100" asp-append-version="true"/>
+                                    <img src="@imagePath" alt="@dish.DishName" class="dish-image w-100" asp-append-version="true" />
                                 </div>
                                 <div class="dish-details">
                                     <h4>@dish.DishName</h4>
@@ -121,9 +121,9 @@
                                     <p><span>Contains Nuts :</span> @dish.ContainsNuts</p>
                                     <p><span>Vegetarian :</span> @dish.IsVegetarian</p>
                                     <p><span>Price:</span> $@dish.Price</p>
-                                    <form class="add-to-cart-form" data-url="/Cart/Index" method="post">
+                                    <form method="post" asp-controller="Cart" asp-action="AddToCart">
                                         <input type="hidden" name="dishId" value="@dish.Id" />
-                                        <button type="submit" class="btn-add-to-cart">Add to Cart</button>
+                                        <button type="submit" class="btn btn-outline-primary">Add to Cart</button>
                                     </form>
                                 </div>
                             </div>

@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineRestaurant.Data;
+using OnlineRestaurant.Interfaces;
 using OnlineRestaurant.Models;
 using OnlineRestaurant.Services;
 
@@ -13,14 +14,18 @@ builder.Services.AddDbContext<RestaurantDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddScoped<MenuService>();
+builder.Services.AddScoped<IMenuService, MenuService>();
 
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -39,4 +44,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-
