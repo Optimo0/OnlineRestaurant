@@ -38,6 +38,13 @@ namespace OnlineRestaurant.Services
             return _dbContext.CartItems.ToList();
         }
 
+        public decimal GetTotalPrice()
+        {
+            List<CartModel> cartItems = GetCartItems();
+            decimal totalPrice = cartItems.Sum(item => item.Price * item.Quantity);
+            return totalPrice;
+        }
+
         public void AddToCart(int dishId)
         {
             var existingCartItem = _dbContext.CartItems.FirstOrDefault(item => item.DishId == dishId);

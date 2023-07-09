@@ -9,7 +9,7 @@
 .row h2[b-fu14kj3bsj] {
     font-size: 36px;
     line-height: 36px;
-    color: #000000;
+    color: #fff;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     text-align: center;
@@ -35,9 +35,17 @@
     font-size: 20px;
 }
 
+.filter-container[b-fu14kj3bsj] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+}
+
 .dish-container[b-fu14kj3bsj] {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .dish-card[b-fu14kj3bsj] {
@@ -53,6 +61,10 @@
     overflow: hidden;
 }
 
+.dish-card.selected[b-fu14kj3bsj] {
+    border: 2px solid blue;
+}
+
 .dish-card:hover[b-fu14kj3bsj] {
     box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.7);
 }
@@ -63,12 +75,13 @@
 }
 
 .dish-image-container[b-fu14kj3bsj] {
-    background: #cfcfcf;
+    background: #fff;
     padding: 10px;
 }
 
 .dish-details[b-fu14kj3bsj] {
     padding: 10px;
+    color: #fff;
 }
 
 .dish-details input[b-fu14kj3bsj] {
@@ -85,4 +98,22 @@
 
 .dish-details input:hover[b-fu14kj3bsj] {
     background-color: firebrick;
+}
+
+.wraper[b-fu14kj3bsj] {
+    background: url(/Images/Seller.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.wraper[b-fu14kj3bsj]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.85);
 }

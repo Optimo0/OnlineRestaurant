@@ -17,10 +17,29 @@ namespace OnlineRestaurant.Controllers
             _menuService = menuService;
         }
 
-        public ActionResult Index(string category, int? spiciness, bool? containsNuts, bool? vegetarian)
+        public ActionResult Index(string category, int? spiciness, bool? containsNuts, bool? vegetarian, int page = 1)
         {
+            int pageSize = 6;
+
             List<DishModel> dishes = _menuService.GetFilteredDishes(category, spiciness, containsNuts, vegetarian);
-            return View(dishes);
+
+            int totalItems = dishes.Count;
+            int totalPages = (int)Math.Ceiling((decimal)totalItems / pageSize);
+
+            dishes = dishes.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+            var viewModel = new DishViewModel
+            {
+                Dishes = dishes,
+                Category = category,
+                Spiciness = spiciness,
+                ContainsNuts = containsNuts,
+                Vegetarian = vegetarian,
+                CurrentPage = page,
+                TotalPages = totalPages
+            };
+
+            return View(viewModel);
         }
 
         public IActionResult Privacy()

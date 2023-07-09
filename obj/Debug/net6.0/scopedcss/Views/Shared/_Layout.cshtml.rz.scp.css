@@ -13,7 +13,6 @@ a.navbar-brand[b-kp9xjhomyc] {
 }
 
 .navbar[b-kp9xjhomyc] {
-    background-color: transparent !important;
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -85,13 +84,13 @@ button.accept-policy[b-kp9xjhomyc] {
     top: 50%;
 }
 
-    .home-banner-content h1[b-kp9xjhomyc] {
-        font-size: 40px;
-        line-height: 70px;
-        color: #dd1225;
-        font-weight: 800;
-        text-align: center;
-        text-transform: capitalize;
-        font-family: 'Roboto Slab', serif;
-        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dd1225, 0 0 82px #dd1225, 0 0 92px #dd1225, 0 0 102px #dd1225, 0 0 151px #dd1225;
-    }
+.home-banner-content h1[b-kp9xjhomyc] {
+    font-size: 40px;
+    line-height: 70px;
+    color: #dd1225;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dd1225, 0 0 82px #dd1225, 0 0 92px #dd1225, 0 0 102px #dd1225, 0 0 151px #dd1225;
+}

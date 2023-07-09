@@ -16,6 +16,8 @@ namespace OnlineRestaurant.Controllers
         public IActionResult Index()
         {
             List<CartModel> cartItems = _menuService.GetCartItems();
+            decimal totalPrice = _menuService.GetTotalPrice();
+            ViewBag.TotalPrice = totalPrice;
             return View(cartItems);
         }
 
@@ -23,7 +25,7 @@ namespace OnlineRestaurant.Controllers
         public IActionResult AddToCart(int dishId)
         {
             _menuService.AddToCart(dishId);
-            return RedirectToAction("Index", "Home");
+            return Json(new { success = true });
         }
 
         [HttpPost]

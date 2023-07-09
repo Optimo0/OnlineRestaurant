@@ -65,12 +65,16 @@
       "PackagePath": "staticwebassets\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png"
     },
     {
-      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe",
-      "PackagePath": "staticwebassets\\Images\\Dishes\\Git-2.41.0-64-bit.exe"
-    },
-    {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Greek Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Greek Salad.png"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Grilled Salmon with Lemon Butter Sauce.png",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Grilled Salmon with Lemon Butter Sauce.png"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Grilled Trout with Almond Butter.png",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Grilled Trout with Almond Butter.png"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Honey Sriracha Chicken.png",
@@ -91,6 +95,10 @@
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Lemon Herb Grilled Chicken.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Lemon Herb Grilled Chicken.png"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Lobster Bisque.png",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Lobster Bisque.png"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Mac and Cheese.png",
@@ -117,8 +125,16 @@
       "PackagePath": "staticwebassets\\Images\\Dishes\\Sichuan Hot and Sour Soup.png"
     },
     {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Sushi.png",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Sushi.png"
+    },
+    {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Szechuan Beef.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Szechuan Beef.png"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Szechuan-style Calamari.png",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Szechuan-style Calamari.png"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Thai Basil Beef.png",
@@ -149,12 +165,20 @@
       "PackagePath": "staticwebassets\\Images\\Dishes\\Tuna Tartare Bites.png"
     },
     {
-      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe",
-      "PackagePath": "staticwebassets\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe"
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Background.jpg",
+      "PackagePath": "staticwebassets\\Images\\Restaurant Background.jpg"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Logo.png",
       "PackagePath": "staticwebassets\\Images\\Restaurant Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Seller.jpg",
+      "PackagePath": "staticwebassets\\Images\\Seller.jpg"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\css\\fonts\\myFont.otf",
+      "PackagePath": "staticwebassets\\css\\fonts\\myFont.otf"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\css\\site.css",

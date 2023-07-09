@@ -11,5 +11,6 @@ namespace OnlineRestaurant.Interfaces
         void AddToCart(int dishId);
         void RemoveFromCart(int dishId);
         void UpdateCartItemQuantity(int dishId, int quantity);
+        decimal GetTotalPrice();
     }
 }

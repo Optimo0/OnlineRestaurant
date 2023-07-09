@@ -10,7 +10,7 @@
 .row h2[b-fu14kj3bsj] {
     font-size: 36px;
     line-height: 36px;
-    color: #000000;
+    color: #fff;
     font-weight: 700;
     font-family: 'Roboto Slab', serif;
     text-align: center;
@@ -36,9 +36,17 @@
     font-size: 20px;
 }
 
+.filter-container[b-fu14kj3bsj] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+}
+
 .dish-container[b-fu14kj3bsj] {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .dish-card[b-fu14kj3bsj] {
@@ -54,6 +62,10 @@
     overflow: hidden;
 }
 
+.dish-card.selected[b-fu14kj3bsj] {
+    border: 2px solid blue;
+}
+
 .dish-card:hover[b-fu14kj3bsj] {
     box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.7);
 }
@@ -64,12 +76,13 @@
 }
 
 .dish-image-container[b-fu14kj3bsj] {
-    background: #cfcfcf;
+    background: #fff;
     padding: 10px;
 }
 
 .dish-details[b-fu14kj3bsj] {
     padding: 10px;
+    color: #fff;
 }
 
 .dish-details input[b-fu14kj3bsj] {
@@ -87,6 +100,24 @@
 .dish-details input:hover[b-fu14kj3bsj] {
     background-color: firebrick;
 }
+
+.wraper[b-fu14kj3bsj] {
+    background: url(/Images/Seller.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.wraper[b-fu14kj3bsj]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.85);
+}
 /* _content/OnlineRestaurant/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -103,7 +134,6 @@ a.navbar-brand[b-kp9xjhomyc] {
 }
 
 .navbar[b-kp9xjhomyc] {
-    background-color: transparent !important;
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -175,13 +205,13 @@ button.accept-policy[b-kp9xjhomyc] {
     top: 50%;
 }
 
-    .home-banner-content h1[b-kp9xjhomyc] {
-        font-size: 40px;
-        line-height: 70px;
-        color: #dd1225;
-        font-weight: 800;
-        text-align: center;
-        text-transform: capitalize;
-        font-family: 'Roboto Slab', serif;
-        text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dd1225, 0 0 82px #dd1225, 0 0 92px #dd1225, 0 0 102px #dd1225, 0 0 151px #dd1225;
-    }
+.home-banner-content h1[b-kp9xjhomyc] {
+    font-size: 40px;
+    line-height: 70px;
+    color: #dd1225;
+    font-weight: 800;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dd1225, 0 0 82px #dd1225, 0 0 92px #dd1225, 0 0 102px #dd1225, 0 0 151px #dd1225;
+}
