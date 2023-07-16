@@ -1,0 +1,34 @@
+.container[b-yzakh3d9yj] {
+    padding-top: 120px;
+}
+
+.quantity-input[b-yzakh3d9yj] {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.quantity-value[b-yzakh3d9yj] {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.quantity-btn[b-yzakh3d9yj] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.minus-btn[b-yzakh3d9yj] {
+    color: #dc3545;
+}
+
+.plus-btn[b-yzakh3d9yj] {
+    color: #28a745;
+}

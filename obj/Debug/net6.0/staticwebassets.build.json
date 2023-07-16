@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uzUl181UWqthuAxTzdpPlwwTUglB0Jnt6dPb9EiSVGc=",
+  "Hash": "Go15rZNzmNLyRjR6MjWDNOUIbezLuUHXf2jCApD/rEU=",
   "Source": "OnlineRestaurant",
   "BasePath": "_content/OnlineRestaurant",
   "Mode": "Default",
@@ -357,6 +357,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png"
     },
     {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/Git-2.41.0-64-bit.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe"
+    },
+    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Greek Salad.png",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -578,6 +595,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Roasted Garlic Broccoli.png"
     },
     {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Dishes/scoped_dir22068_1147045770/Git-2.41.0-64-bit.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe"
+    },
+    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Shrimp Skewers.png",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -782,6 +816,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\Dishes\\Tuna Tartare Bites.png"
     },
     {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Home.jpg",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Home.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Home.jpg"
+    },
+    {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Background.jpg",
       "SourceId": "OnlineRestaurant",
       "SourceType": "Discovered",
@@ -814,6 +865,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Restaurant Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Scooter.png",
+      "SourceId": "OnlineRestaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\",
+      "BasePath": "_content/OnlineRestaurant",
+      "RelativePath": "Images/Scooter.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Scooter.png"
     },
     {
       "Identity": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Seller.jpg",

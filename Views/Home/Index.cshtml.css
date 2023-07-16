@@ -1,4 +1,34 @@
-﻿.row {
+﻿.home-banner {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    background: url(/Images/Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 888px;
+}
+
+.pos-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.triangle-up:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: url(https://preview.colorlib.com/theme/luigis/images/triangle_bg.png.webp) repeat-x;
+    background-size: 26px 10px;
+}
+
+.row {
     display: inline-block;
     width: 100%;
     vertical-align: top;
@@ -10,7 +40,8 @@
     font-size: 36px;
     line-height: 36px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 50px;
     font-family: 'Roboto Slab', serif;
     text-align: center;
     margin-bottom: 60px;
@@ -42,62 +73,104 @@
     color: #fff;
 }
 
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.category-list li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.category-list li a:hover {
+    background-color: #dc3545;
+}
+
+.left-section {
+    width: 15%;
+    float: left;
+    padding-right: 20px;
+    background-color: rgb(180, 147, 131);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.left-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial;
+}
+
+.left-section label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input#spiciness {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #dc3545;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+input#spiciness::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid purple;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+
+input#spiciness::-webkit-slider-thumb:hover {
+  background: white;
+}
+
+input#containsNuts,
+input#vegetarian {
+  transform: scale(1.2);
+  margin-right: 5px;
+}
+
+.right-section {
+    width: 85%;
+    float: right;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
 .dish-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.dish-card {
-    width: 300px;
-    margin: 10px;
-    border: 2px solid #cfcfcf;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    -webkit-border-radius: 10px;
-    overflow: hidden;
-}
-
-.dish-card.selected {
-    border: 2px solid blue;
-}
-
-.dish-card:hover {
-    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.7);
-}
-
-.dish-image {
-    max-width: 100%;
-    height: auto;
-}
-
-.dish-image-container {
-    background: #fff;
-    padding: 10px;
-}
-
-.dish-details {
-    padding: 10px;
-    color: #fff;
-}
-
-.dish-details input {
-    color: black;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.dish-details span {
-    color: #dd1225;
-}
-
-.dish-details input:hover {
-    background-color: firebrick;
 }
 
 .wraper {
@@ -116,4 +189,89 @@
     bottom: 0;
     z-index: -1;
     background: rgba(0,0,0,.85);
+}
+
+.pos-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 0;
+}
+
+.triangle-up:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: url(https://preview.colorlib.com/theme/luigis/images/triangle_bg.png.webp) repeat-x;
+    background-size: 26px 10px;
+}
+
+.pos-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.triangle-bottom:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: url(https://preview.colorlib.com/theme/luigis/images/triangle_bg.png.webp) repeat-x;
+    background-size: 26px 10px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.home-subtitle {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 0.75;
+}
+
+.page-subtitle {
+    font-family: 'Edward', sans-serif;
+    color: #b49383;
+    line-height: 0.75;
+}
+
+.home-title {
+    margin-top: 10px;
+}
+
+.home-title h1 {
+    font-size: 72px;
+    color: #FFFFFF;
+}
+
+.home-text {
+    max-width: 875px;
+    margin-top: 14px;
+}
+
+.home-text p {
+    color: #FFFFFF;
+}
+
+.home-text {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.home-banner-content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    width: 100%;
 }

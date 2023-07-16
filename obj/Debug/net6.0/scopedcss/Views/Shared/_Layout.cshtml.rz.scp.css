@@ -1,36 +1,89 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-kp9xjhomyc] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+.container-fluid[b-kp9xjhomyc] {
+    display: flex;
+    align-items: center;
 }
 
-.navbar-brand img[b-kp9xjhomyc] {
-    width: 150px;
-    height: 80px;
+a.navbar-brand[b-kp9xjhomyc] {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.navbar-brand[b-kp9xjhomyc] {
+    margin-left: 10%;
 }
 
 .navbar[b-kp9xjhomyc] {
     position: fixed;
-    z-index: 100;
+    top: 0;
+    left: 0;
     width: 100%;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
     border-bottom: none !important;
     box-shadow: none !important;
 }
 
+.navbar.scrolled[b-kp9xjhomyc] {
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.navbar.cart-page[b-kp9xjhomyc] {
+    position: static;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.scooter-icon[b-kp9xjhomyc] {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(/Images/Scooter.png) no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+    transform-origin: left center;
+}
+
+.cart-link[b-kp9xjhomyc] {
+    display: flex;
+    align-items: center;
+    margin-left: 75%;
+}
+
+.cart-link:hover .scooter-icon[b-kp9xjhomyc] {
+    transform: translateX(30px);
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .cart-link[b-kp9xjhomyc] {
+        display: none;
+    }
+
+    .navbar-brand[b-kp9xjhomyc] {
+        margin-left: 0;
+    }
+
+    .navbar-collapse[b-kp9xjhomyc] {
+        justify-content: flex-end;
+    }
+
+    .navbar-nav[b-kp9xjhomyc] {
+        margin-right: 10px;
+    }
+}
+
+
 a[b-kp9xjhomyc] {
-  color: #0077cc;
+    color: #0077cc;
 }
 
 .btn-primary[b-kp9xjhomyc] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active[b-kp9xjhomyc], .nav-pills .show > .nav-link[b-kp9xjhomyc] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -58,39 +111,4 @@ button.accept-policy[b-kp9xjhomyc] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-}
-
-.home-banner[b-kp9xjhomyc] {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    overflow: hidden;
-    background: url(https://images.template.net/108716/food-blog-background-m1w5n.jpg) no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    height: 400px;
-    background-size: cover;
-    background-position: 50% 1%;
-}
-
-.home-banner-content[b-kp9xjhomyc] {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    top: 50%;
-}
-
-.home-banner-content h1[b-kp9xjhomyc] {
-    font-size: 40px;
-    line-height: 70px;
-    color: #dd1225;
-    font-weight: 800;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Roboto Slab', serif;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #dd1225, 0 0 82px #dd1225, 0 0 92px #dd1225, 0 0 102px #dd1225, 0 0 151px #dd1225;
 }

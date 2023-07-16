@@ -4,98 +4,65 @@
     ViewData["Title"] = "Home Page";
 }
 
+<div class="home-banner">
+    <div class="pos-bottom triangle-up"></div>
+    <div class="home-banner-content text-center">
+        <div class="home-subtitle page-subtitle">Nika's Restaurant Is</div>
+        <div class="home-title">
+            <h1>An Extraordinery Experience</h1>
+        </div>
+        <div class="home-text">
+            <p>Fast and efficient dood delivery, with excellent service and high quality food, Order Now.</p>
+        </div>
+    </div>
+</div>
+
 
 <section class="wraper">
+    <div class="pos-bottom triangle-up"></div>
+    <div class="pos-top triangle-bottom"></div>
     <div class="container">
         <div class="row col-md-12">
             <h2>Categories</h2>
             <div class="filter-container">
-                <form method="get" action="/Home/Index">
-                    <label for="category">Category:</label>
-                    <select id="category" name="category">
-                        <option value="">All</option>
-                        <option value="Salads">Salads</option>
-                        <option value="Soups">Soups</option>
-                        <option value="Chicken-Dishes">Chicken-Dishes</option>
-                        <option value="Beef-Dishes">Beef-Dishes</option>
-                        <option value="Seafood-Dishes">Seafood-Dishes</option>
-                        <option value="Vegetable-Dishes">Vegetable-Dishes</option>
-                        <option value="Bits&Bites">Bits & Bites</option>
-                        <option value="On The Side">On The Side</option>
-                    </select>
-                    <label for="spiciness">Spiciness:</label>
-                    <select id="spiciness" name="spiciness">
-                        <option value="">All</option>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                    <label for="containsNuts">Contains Nuts:</label>
-                    <select id="containsNuts" name="containsNuts">
-                        <option value="">All</option>
-                        <option value="true">Yes</option>
-                        <option value="false">No</option>
-                    </select>
-                    <label for="vegetarian">Vegetarian:</label>
-                    <select id="vegetarian" name="vegetarian">
-                        <option value="">All</option>
-                        <option value="true">Yes</option>
-                        <option value="false">No</option>
-                    </select>
-                    <input type="submit" value="Filter" />
-                </form>
-            </div>
+                <form onsubmit="event.preventDefault(); filterDishes();" id="filterForm">
+                    <ul class="category-list">
+                        <li><a href="/Home/Index">All</a></li>
+                        <li><a href="/Home/Index?category=Salads">Salads</a></li>
+                        <li><a href="/Home/Index?category=Soups">Soups</a></li>
+                        <li><a href="/Home/Index?category=Chicken-Dishes">Chicken-Dishes</a></li>
+                        <li><a href="/Home/Index?category=Beef-Dishes">Beef-Dishes</a></li>
+                        <li><a href="/Home/Index?category=Seafood-Dishes">Seafood-Dishes</a></li>
+                        <li><a href="/Home/Index?category=Vegetable-Dishes">Vegetable-Dishes</a></li>
+                        <li><a href="@Url.Action("Index", "Home", new { category = "Bits&Bites" })">Bits &amp; Bites</a></li>
+                        <li><a href="/Home/Index?category=On The Side">On The Side</a></li>
+                    </ul>
 
-            <div class="dish-container">
-                @foreach (var dish in Model.Dishes)
-                {
-                    var imagePath = "~/Images/Dishes/" + (dish.ImageUrl + ".png");
-                    <div class="dish-card">
-                        <div class="dish-image-container">
-                            <img src="@imagePath" alt="@dish.DishName" class="dish-image w-100" asp-append-version="true" />
-                        </div>
-                        <div class="dish-details">
-                            <h4>@dish.DishName</h4>
-                            <p><span>Spiciness :</span> @dish.Spiciness</p>
-                            <p><span>Contains Nuts :</span> @dish.ContainsNuts</p>
-                            <p><span>Vegetarian :</span> @dish.IsVegetarian</p>
-                            <p><span>Price:</span> $@dish.Price</p>
-                            <button type="button" class="btn btn-outline-primary" onclick="addToCart(@dish.Id)">Add to Cart</button>
+                    <div class="left-section">
+                        <h3>Filter</h3>
+                        <label for="spiciness">Spiciness:</label>
+                        <output id="spicinessOutput">All</output>
+                        <br />
+                        <input type="range" id="spiciness" name="spiciness" min="-1" max="4" step="1" value="-1" />
+                        <br />
+                        <input type="checkbox" id="containsNuts" name="containsNuts" value="true" />
+                        <label for="containsNuts">Contains Nuts:</label>
+                        <br />
+                        <input type="checkbox" id="vegetarian" name="vegetarian" value="true" />
+                        <label for="vegetarian">Vegetarian:</label>
+                        <br />
+                        <input type="hidden" id="category" name="category" value="@Model.Category" />
+                        <br />
+                        <button type="submit" class="btn btn-danger">Filter</button>
+                        <button type="button" class="btn btn-danger" onclick="resetFilter()">Reset</button>
+                    </div>
+
+                    <div class="right-section">
+                        <div class="dish-container">
+                            @Html.Partial("_DishPartial", Model)
                         </div>
                     </div>
-                }
-            </div>
-
-            <div class="pagination-container">
-                @if (Model.TotalPages > 1)
-                {
-                    <nav aria-label="Dish navigation">
-                        <ul class="pagination justify-content-center">
-                            @if (Model.CurrentPage > 1)
-                            {
-                                <li class="page-item">
-                                    <a class="page-link" href="/Home/Index?category=@Model.Category&amp;spiciness=@Model.Spiciness&amp;containsNuts=@Model.ContainsNuts&amp;vegetarian=@Model.Vegetarian&amp;page=@(Model.CurrentPage - 1)">Previous</a>
-                                </li>
-                            }
-
-                            @for (int i = 1; i <= Model.TotalPages; i++)
-                            {
-                                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
-                                    <a class="page-link" href="/Home/Index?category=@Model.Category&amp;spiciness=@Model.Spiciness&amp;containsNuts=@Model.ContainsNuts&amp;vegetarian=@Model.Vegetarian&amp;page=@i">@i</a>
-                                </li>
-                            }
-
-                            @if (Model.CurrentPage < Model.TotalPages)
-                            {
-                                <li class="page-item">
-                                    <a class="page-link" href="/Home/Index?category=@Model.Category&amp;spiciness=@Model.Spiciness&amp;containsNuts=@Model.ContainsNuts&amp;vegetarian=@Model.Vegetarian&amp;page=@(Model.CurrentPage + 1)">Next</a>
-                                </li>
-                            }
-                        </ul>
-                    </nav>
-                }
+                </form>
             </div>
         </div>
     </div>
@@ -103,6 +70,49 @@
 
 
 <script>
+    document.getElementById('spiciness').addEventListener('input', function () {
+        var spicinessOutput = document.getElementById('spicinessOutput');
+        if (this.value == -1) {
+            spicinessOutput.textContent = 'All';
+        } else {
+            spicinessOutput.textContent = this.value;
+        }
+    });
+
+    function resetFilter() {
+        $('#category').val('');
+        $('#spiciness').val(-1);
+        $('#containsNuts').prop('checked', false);
+        $('#vegetarian').prop('checked', false);
+
+        filterDishes();
+    }
+
+    function filterDishes() {
+        var category = $('#category').val();
+        var spiciness = $('#spiciness').val();
+        var containsNuts = $('#containsNuts').prop('checked');
+        var vegetarian = $('#vegetarian').prop('checked');
+
+        $.ajax({
+            url: '/Home/Index',
+            type: 'GET',
+            data: {
+                category: category,
+                spiciness: spiciness,
+                containsNuts: containsNuts,
+                vegetarian: vegetarian,
+                page: 1
+            },
+            success: function (response) {
+                $('.dish-container').html(response);
+            },
+            error: function (xhr, status, error) {
+                console.error(error);
+            }
+        });
+    }
+
     function addToCart(dishId) {
         $.ajax({
             url: '/Cart/AddToCart',

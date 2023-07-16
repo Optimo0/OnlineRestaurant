@@ -3,6 +3,7 @@ using OnlineRestaurant.Models;
 using System.Diagnostics;
 using OnlineRestaurant.Services;
 using OnlineRestaurant.Interfaces;
+using Microsoft.AspNetCore.Http;
 
 namespace OnlineRestaurant.Controllers
 {
@@ -17,7 +18,7 @@ namespace OnlineRestaurant.Controllers
             _menuService = menuService;
         }
 
-        public ActionResult Index(string category, int? spiciness, bool? containsNuts, bool? vegetarian, int page = 1)
+        public IActionResult Index(string category, int? spiciness, bool? containsNuts, bool? vegetarian, int page = 1)
         {
             int pageSize = 6;
 
@@ -39,7 +40,14 @@ namespace OnlineRestaurant.Controllers
                 TotalPages = totalPages
             };
 
-            return View(viewModel);
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_DishPartial", viewModel);
+            }
+            else
+            {
+                return View(viewModel);
+            }
         }
 
         public IActionResult Privacy()

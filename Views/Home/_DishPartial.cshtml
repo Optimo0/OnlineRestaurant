@@ -1,0 +1,49 @@
+﻿@model DishViewModel
+
+@foreach (var dish in Model.Dishes)
+{
+    var imagePath = "~/Images/Dishes/" + (dish.ImageUrl + ".png");
+    <div class="dish-card">
+        <div class="dish-image-container">
+            <img src="@imagePath" alt="@dish.DishName" class="dish-image w-100" asp-append-version="true" />
+        </div>
+        <div class="dish-details">
+            <h4>@dish.DishName</h4>
+            <p><span>Spiciness :</span> @dish.Spiciness</p>
+            <p><span>Contains Nuts :</span> @dish.ContainsNuts</p>
+            <p><span>Vegetarian :</span> @dish.IsVegetarian</p>
+            <p><span>Price:</span> $@dish.Price</p>
+            <button type="button" class="btn btn-danger" onclick="addToCart(@dish.Id)">Add to Cart</button>
+        </div>
+    </div>
+}
+
+<div class="pagination-container">
+    @if (Model.TotalPages > 1)
+    {
+        <nav aria-label="Dish navigation">
+            <ul class="pagination justify-content-center">
+                @if (Model.CurrentPage > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="/Home/Index?category=@Model.Category&amp;spiciness=@Model.Spiciness&amp;containsNuts=@Model.ContainsNuts&amp;vegetarian=@Model.Vegetarian&amp;page=@(Model.CurrentPage - 1)">Previous</a>
+                    </li>
+                }
+
+                @for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="/Home/Index?category=@Model.Category&amp;spiciness=@Model.Spiciness&amp;containsNuts=@Model.ContainsNuts&amp;vegetarian=@Model.Vegetarian&amp;page=@i">@i</a>
+                    </li>
+                }
+
+                @if (Model.CurrentPage < Model.TotalPages)
+                {
+                    <li class="page-item">
+                        <a class="page-link" href="/Home/Index?category=@Model.Category&amp;spiciness=@Model.Spiciness&amp;containsNuts=@Model.ContainsNuts&amp;vegetarian=@Model.Vegetarian&amp;page=@(Model.CurrentPage + 1)">Next</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    }
+</div>

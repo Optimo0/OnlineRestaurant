@@ -101,19 +101,33 @@ namespace OnlineRestaurant.Services
                 filteredDishes = filteredDishes.Where(d => d.Category == category);
             }
 
-            if (spiciness.HasValue)
+            if (spiciness.HasValue && spiciness.Value >= 0)
             {
                 filteredDishes = filteredDishes.Where(d => d.Spiciness == spiciness.Value);
             }
 
             if (containsNuts.HasValue)
             {
-                filteredDishes = filteredDishes.Where(d => d.ContainsNuts == containsNuts.Value);
+                if (containsNuts.Value)
+                {
+                    filteredDishes = filteredDishes.Where(d => d.ContainsNuts == true || d.ContainsNuts == null);
+                }
+                else
+                {
+                    filteredDishes = filteredDishes.Where(d => d.ContainsNuts == false);
+                }
             }
 
             if (vegetarian.HasValue)
             {
-                filteredDishes = filteredDishes.Where(d => d.IsVegetarian == vegetarian.Value);
+                if (vegetarian.Value)
+                {
+                    filteredDishes = filteredDishes.Where(d => d.IsVegetarian == true || d.IsVegetarian == null);
+                }
+                else
+                {
+                    filteredDishes = filteredDishes.Where(d => d.IsVegetarian == false);
+                }
             }
 
             return filteredDishes.ToList();

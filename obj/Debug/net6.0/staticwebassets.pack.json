@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\Images\\Dishes\\Garlic Parmesan Roasted Potatoes.png"
     },
     {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Git-2.41.0-64-bit.exe",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\Git-2.41.0-64-bit.exe"
+    },
+    {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\Greek Salad.png",
       "PackagePath": "staticwebassets\\Images\\Dishes\\Greek Salad.png"
     },
@@ -165,12 +169,24 @@
       "PackagePath": "staticwebassets\\Images\\Dishes\\Tuna Tartare Bites.png"
     },
     {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe",
+      "PackagePath": "staticwebassets\\Images\\Dishes\\scoped_dir22068_1147045770\\Git-2.41.0-64-bit.exe"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Home.jpg",
+      "PackagePath": "staticwebassets\\Images\\Home.jpg"
+    },
+    {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Background.jpg",
       "PackagePath": "staticwebassets\\Images\\Restaurant Background.jpg"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Restaurant Logo.png",
       "PackagePath": "staticwebassets\\Images\\Restaurant Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Scooter.png",
+      "PackagePath": "staticwebassets\\Images\\Scooter.png"
     },
     {
       "Id": "C:\\Users\\cetme\\source\\repos\\OnlineRestaurant\\wwwroot\\Images\\Seller.jpg",

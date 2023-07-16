@@ -25,17 +25,18 @@
                     <td>@item.Quantity</td>
                     <td>@(item.Price * item.Quantity)</td>
                     <td>
-                        <!-- For UpdateCartItemQuantity -->
-                        <form method="post" asp-controller="Cart" asp-action="UpdateCartItemQuantity">
-                            <input type="hidden" name="dishId" value="@item.DishId" />
-                            <input type="number" name="quantity" min="1" value="@item.Quantity" />
-                            <button type="submit" class="btn btn-primary">Update</button>
-                        </form>
-                        <!-- For RemoveFromCart -->
-                        <form method="post" asp-controller="Cart" asp-action="RemoveFromCart">
-                            <input type="hidden" name="dishId" value="@item.DishId" />
-                            <button type="submit" class="btn btn-danger">Remove</button>
-                        </form>
+                        <div class="quantity-input">
+                            <form method="post" asp-controller="Cart" asp-action="UpdateCartItemQuantity">
+                                <input type="hidden" name="dishId" value="@item.DishId" />
+                                <button type="submit" class="quantity-btn minus-btn"><i class="fas fa-minus"></i></button>
+                                <input type="number" name="quantity" min="1" value="@item.Quantity" class="quantity-value" readonly />
+                                <button type="submit" class="quantity-btn plus-btn"><i class="fas fa-plus"></i></button>
+                            </form>
+                            <form method="post" asp-controller="Cart" asp-action="RemoveFromCart">
+                                <input type="hidden" name="dishId" value="@item.DishId" />
+                                <button type="submit" class="btn btn-danger">Remove</button>
+                            </form>
+                        </div>
                     </td>
                 </tr>
             }
@@ -43,3 +44,34 @@
     </table>
     <h4>Total Price: $@ViewBag.TotalPrice</h4>
 </div>
+
+<script>
+    const minusBtns = document.querySelectorAll('.minus-btn');
+    const plusBtns = document.querySelectorAll('.plus-btn');
+    const quantityInputs = document.querySelectorAll('.quantity-value');
+
+    minusBtns.forEach((minusBtn, index) => {
+        minusBtn.addEventListener('click', () => {
+            const currentValue = parseInt(quantityInputs[index].value);
+            if (currentValue > 1) {
+                quantityInputs[index].value = currentValue - 1;
+            }
+        });
+    });
+
+    plusBtns.forEach((plusBtn, index) => {
+        plusBtn.addEventListener('click', () => {
+            const currentValue = parseInt(quantityInputs[index].value);
+            quantityInputs[index].value = currentValue + 1;
+        });
+    });
+
+    quantityInputs.forEach((input, index) => {
+        input.addEventListener('input', () => {
+            const currentValue = parseInt(input.value);
+            if (currentValue < 1) {
+                input.value = 1;
+            }
+        });
+    });
+</script>
